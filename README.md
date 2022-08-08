@@ -1,3 +1,5 @@
+<img src="bootstrap-logo.png" align="right" width="300">
+
 # BOOTSTRAP
  Curso de Bootstrap - CFBCursos
  
