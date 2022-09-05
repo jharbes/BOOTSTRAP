@@ -18,11 +18,28 @@
   <body>
     <h1>CFB Cursos - Curso de Bootstrap</h1>
 
+    <h3>Utilizaremos a classe align-self, o align-self-strecht é o padrão para os elementos, onde ele se estica para ocupar todo o espaço <br>,
+        faremos uso também do align-self-start(1ª coluna), align-self-end(3ª coluna), align-self-center(4ª coluna), mostrando seus resultados
+    </h3>
+
     <div class="p-1 m-2 border border-1 border-dark d-flex" style="height:300px;">
-        <div class="bg-primary border border-1 border-dark">CFB Cursos</div>
-        <div class="bg-success border border-1 border-dark">CFB Cursos</div>
-        <div class="bg-info border border-1 border-dark">CFB Cursos</div>
-        <div class="bg-warning border border-1 border-dark">CFB Cursos</div>
+        <div class="bg-primary border border-1 border-dark align-self-start">CFB Cursos</div>
+        <div class="bg-success border border-1 border-dark align-self-strecht">CFB Cursos</div>
+        <div class="bg-info border border-1 border-dark align-self-end">CFB Cursos</div>
+        <div class="bg-warning border border-1 border-dark align-self-center">CFB Cursos</div>
+        <div class="bg-danger border border-1 border-dark">CFB Cursos</div>
+        <div class="bg-secondary border border-1 border-dark">CFB Cursos</div>
+        <div class="bg-dark border border-1 border-dark">CFB Cursos</div>
+        <div class="bg-light border border-1 border-dark">CFB Cursos</div>
+    </div>
+
+    <h3>No próximo exemplo alteramos a disposição de flex-row(padrão) para flex-column, fazendo isso as classes de align deixam de funcionar para o eixo y e passam a funcionar para o eixo x(que passa nesse caso a ser o eixo secundário), mantemos as classes do exemplo anterior para exemplo</h3>
+
+    <div class="p-1 m-2 border border-1 border-dark d-flex flex-column" style="height:300px;">
+        <div class="bg-primary border border-1 border-dark align-self-start">CFB Cursos</div>
+        <div class="bg-success border border-1 border-dark align-self-strecht">CFB Cursos</div>
+        <div class="bg-info border border-1 border-dark align-self-end">CFB Cursos</div>
+        <div class="bg-warning border border-1 border-dark align-self-center">CFB Cursos</div>
         <div class="bg-danger border border-1 border-dark">CFB Cursos</div>
         <div class="bg-secondary border border-1 border-dark">CFB Cursos</div>
         <div class="bg-dark border border-1 border-dark">CFB Cursos</div>
