@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Projeto página Bootstrap</title>
+    <title>Projeto Página Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="shortcut icon" href="imagens/kindpng_2258787.png" type="image/x-icon">
     <style>
         img{
             width: 50%;
@@ -126,34 +127,34 @@
     
                 <ul class="nav nav-pills flex-column">
                     <li class="nav-item">
-                        <a href="#" class="nav-link" style="color:#573F7E;"><strong>Álbum</strong></a>
+                        <a href="#" class="nav-link" id="n1" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Álbum</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link" style="color:#573F7E;"><strong>Tabela de Preços</strong></a>
+                        <a href="#" class="nav-link" id="n2" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Tabela de Preços</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link" style="color:#573F7E;"><strong>Formulários de Checkout</strong></a>
+                        <a href="#" class="nav-link" id="n3" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Formulários de Checkout</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link" style="color:#573F7E;"><strong>Blog</strong></a>
+                        <a href="#" class="nav-link" id="n4" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Blog</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link" style="color:#573F7E;"><strong>Carousel</strong></a>
+                        <a href="#" class="nav-link" id="n5" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Carousel</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link" style="color:#573F7E;"><strong>Página de Login</strong></a>
+                        <a href="#" class="nav-link" id="n6" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Página de Login</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link" style="color:#573F7E;"><strong>Layout em Grid</strong></a>
+                        <a href="#" class="nav-link" id="n7" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Layout em Grid</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link" style="color:#573F7E;"><strong>Barras de Navegação</strong></a>
+                        <a href="#" class="nav-link" id="n8" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Barras de Navegação</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link" style="color:#573F7E;"><strong>Bordas</strong></a>
+                        <a href="#" class="nav-link" id="n9" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Bordas</strong></a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link" style="color:#573F7E;"><strong>Menu Sandwich</strong></a>
+                        <a href="#" class="nav-link" id="n10" style="color:#573F7E;" onmouseover="marcar(this.id)" onmouseout="desmarcar(this.id)"><strong>Menu Sandwich</strong></a>
                     </li>
                 </ul>
             </aside>
@@ -163,7 +164,16 @@
         <p class="text-center">Página feita por <a href="mailto:jharbes@hotmail.com" style="text-decoration: none; color:darkgray"><strong>Jorge Harbes</strong></a></p>
         <p class="text-center"><a href="https://www.linkedin.com/in/jorge-harbes-0664161a7/" target="_blank" style="text-decoration: none; color:darkgray"><strong>LinkedIn</strong></a> | <a href="https://github.com/jharbes" target="_blank" style="text-decoration: none; color:darkgray"><strong>GitHub</strong></a></p>
     </footer>
-
+<script>
+    const marcar=(obj)=>{
+        document.getElementById(obj).style.backgroundColor='#573f7e'
+        document.getElementById(obj).style.color='#DBD6E4'
+    }
+    const desmarcar=(obj)=>{
+        document.getElementById(obj).style.backgroundColor='#DBD6E4'
+        document.getElementById(obj).style.color='#573F7E'
+    }
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
