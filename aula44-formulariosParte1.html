@@ -13,6 +13,11 @@
       h3{
         background-color: darkkhaki;
       }
+      input{
+        max-width: 200px;
+      }
+      label{
+      }
     </style>
   </head>
   <body>
@@ -21,9 +26,9 @@
     <h3>Utilizando classes para formulários em Bootstrap:br<br> utilizaremos a classe form-label nos labels e form-control nos inputs.<br>
         nos botões enviar e limpar utilizaremos a classe de botões btn</h3>
 
-    <form action="">
+    <form action="" class="p-3">
         <label class="form-label" for="inome">Nome: </label>
-        <input class="form-control" type="text" name="nome" id="inome">
+        <input class="form-control form-control-sm" type="text" name="nome" id="inome">
 
         <label class="form-label" for="iemail">E-mail: </label>
         <input class="form-control" type="email" name="email" id="iemail">
@@ -32,13 +37,13 @@
         <input class="form-control" type="password" name="senha" id="isenha">
 
         <label class="form-label" for="itel">Telefone: </label>
-        <input class="form-control" type="tel" name="tel" id="itel">
+        <input class="form-control form-control-lg" type="tel" name="tel" id="itel">
 
         <label class="form-label" for="inascimento">Nascimento: </label>
         <input class="form-control" type="date" name="nascimento" id="inascimento">
 
-        <input class="btn btn-info" type="submit" value="Enviar">
-        <input class="btn btn-warning" type="reset" value="Limpar">
+        <input class="btn btn-info my-3 mx-3" type="submit" value="Enviar">
+        <input class="btn btn-warning my-3 mx-3" type="reset" value="Limpar">
     </form>
 
     <!-- Optional JavaScript; choose one of the two! -->
