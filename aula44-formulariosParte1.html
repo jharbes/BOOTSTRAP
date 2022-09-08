@@ -18,24 +18,27 @@
   <body>
     <h1>CFB Cursos - Curso de Bootstrap</h1>
 
+    <h3>Utilizando classes para formulários em Bootstrap:br<br> utilizaremos a classe form-label nos labels e form-control nos inputs.<br>
+        nos botões enviar e limpar utilizaremos a classe de botões btn</h3>
+
     <form action="">
-        <label for="inome">Nome: </label>
-        <input type="text" name="nome" id="inome">
+        <label class="form-label" for="inome">Nome: </label>
+        <input class="form-control" type="text" name="nome" id="inome">
 
-        <label for="iemail">E-mail: </label>
-        <input type="email" name="email" id="iemail">
+        <label class="form-label" for="iemail">E-mail: </label>
+        <input class="form-control" type="email" name="email" id="iemail">
 
-        <label for="isenha">Senha: </label>
-        <input type="password" name="senha" id="isenha">
+        <label class="form-label" for="isenha">Senha: </label>
+        <input class="form-control" type="password" name="senha" id="isenha">
 
-        <label for="itel">Telefone: </label>
-        <input type="tel" name="tel" id="itel">
+        <label class="form-label" for="itel">Telefone: </label>
+        <input class="form-control" type="tel" name="tel" id="itel">
 
-        <label for="inascimento">Nascimento: </label>
-        <input type="date" name="nascimento" id="inascimento">
+        <label class="form-label" for="inascimento">Nascimento: </label>
+        <input class="form-control" type="date" name="nascimento" id="inascimento">
 
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpar">
+        <input class="btn btn-info" type="submit" value="Enviar">
+        <input class="btn btn-warning" type="reset" value="Limpar">
     </form>
 
     <!-- Optional JavaScript; choose one of the two! -->
